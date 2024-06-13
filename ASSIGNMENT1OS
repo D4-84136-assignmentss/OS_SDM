@@ -1,0 +1,237 @@
+1]man --man is used for view documentation (man man)
+
+2]uname
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ uname
+Linux
+
+3]pwd
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ pwd
+/home/sunbeam
+
+4]hostname
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ hostname
+sunbeam-HP-Laptop-15s-dy3xxx
+
+5]date
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ date
+Friday 31 May 2024 08:33:47 PM IST
+
+6]cal
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cal -y
+                            2024
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3                  1  2  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   3  4  5  6  7  8  9  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  10 11 12 13 14 15 16  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  17 18 19 20 21 22 23  
+28 29 30 31           25 26 27 28 29        24 25 26 27 28 29 30  
+                                            31                    
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+28 29 30 31           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28  
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31  
+
+7]ls, dir
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ ls
+ 1                    html                'selfpractice mern'
+ A                   'mern instructions'   show
+ cursor              'mern test'           snap
+ dbt_240344220029     mongo               'SQL ASSIGNMENT-1'
+ Dbt_240344220029     Music               'SQL ASSIGNMENT-2'
+'dbt coding'          mymern              'SQL ASSIGNMENT-3'
+ Desktop              node_modules        'SQL ASSIGNMENT 4'
+ Documents            package.json        'SQL ASSIGNMENT-4'
+ Downloads            package-lock.json   'SQL ASSIGNMENT-4.1'
+ EXERCISE             PASSWORD            'SQL ASSIGNMENT-5'
+'FILE HANDLING QUE'   Pictures             Templates
+ functionsss          Public              'Untitled Document 1'
+ hackthon             register.jsx        'Untitled Document 2'
+ help                 rules                Videos
+
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ dir
+1		     html		 selfpractice\ mern
+A		     mern\ instructions  show
+cursor		     mern\ test		 snap
+dbt_240344220029     mongo		 SQL\ ASSIGNMENT-1
+Dbt_240344220029     Music		 SQL\ ASSIGNMENT-2
+dbt\ coding	     mymern		 SQL\ ASSIGNMENT-3
+Desktop		     node_modules	 SQL\ ASSIGNMENT\ 4
+Documents	     package.json	 SQL\ ASSIGNMENT-4
+Downloads	     package-lock.json	 SQL\ ASSIGNMENT-4.1
+EXERCISE	     PASSWORD		 SQL\ ASSIGNMENT-5
+FILE\ HANDLING\ QUE  Pictures		 Templates
+functionsss	     Public		 Untitled\ Document\ 1
+hackthon	     register.jsx	 Untitled\ Document\ 2
+help		     rules		 Videos
+
+8]cat
+
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cat /home/sunbeam/A
+cat: /home/sunbeam/A: Is a directory
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cat /home/sunbeam/B
+cat: /home/sunbeam/B: Is a directory
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cat /home/sunbeam/C
+cat: /home/sunbeam/C: Is a directory
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cat /home/sunbeam/D
+cat: /home/sunbeam/D: Is a directory
+
+9]cat >>
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cat >> /home/sunbeam/A/a.txt
+Good Morning Everyone.........
+How are you ........
+Myself Snehal Shivaji Badakh.
+I am from CHHATRPATI SAMBHAJINAGAR.             
+THANK YOU..!!!!!!!!!
+
+10]cp
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cp /home/sunbeam/A/a.txt /home/sunbeam/B/a.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cp /home/sunbeam/A/a.txt /home/sunbeam/Ca.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cp /home/sunbeam/A/a.txt /home/sunbeam/Da.txt
+
+
+11]mv
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ mv /home/sunbeam/A/hello.txt /home/sunbeam/D
+
+12]mv
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ mv /home/sunbeam/B/a.txt /home/sunbeam/B/ab.txt
+
+
+
+13]tac
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ tac /home/sunbeam/B/ab.txt
+THANK YOU..!!!!!!!!!
+I am from CHHATRPATI SAMBHAJINAGAR.
+Myself Snehal Shivaji Badakh.
+How are you ........
+Good Morning Everyone.........
+
+
+--rev
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ rev /home/sunbeam/B/ab.txt
+.........enoyrevE gninroM dooG
+........ uoy era woH
+.hkadaB ijavihS lahenS flesyM
+.RAGANIJAHBMAS ITAPRTAHHC morf ma I
+!!!!!!!!!..UOY KNAHT
+
+
+14]wc
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ wc /home/sunbeam/B/ab.txt
+  5  18 139 /home/sunbeam/B/ab.txt
+
+
+15]mkdir
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ mkdir /home/sunbeam/E
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ mkdir /home/sunbeam/F
+CD
+
+16]cd
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ cd /home/sunbeam/Z 
+
+
+17]rm
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/F$ rm -R /home/sunbeam/F
+
+18]rmdir
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/F$ rmdir /home/sunbeam/B
+
+19]touch
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/F$ touch /home/sunbeam/C/xy.txt
+
+20]sort
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/F$ sort /home/sunbeam/A/xy.txt
+Good Morning Everyone.........
+How are you ........
+I am from CHHATRPATI SAMBHAJINAGAR.
+Myself Snehal Shivaji Badakh.
+
+21]uniq
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/F$ uniq -d /home/sunbeam/C/xy.txt
+
+22]head
+cd /home/sunbeam/A
+head -1 xy.txt
+Good Morning Everyone.........
+
+
+23]tail
+cd /home/sunbeam/A
+tail -3 xy.txt
+How are you ........
+Myself Snehal Shivaji Badakh.
+I am from CHHATRPATI SAMBHAJINAGAR
+
+24]factor
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/A$ factor
+121
+121: 11 11
+
+25]alias
+alias C=clear
+C
+
+26]unalias
+unalias C
+
+27]ECHO
+echo
+ env
+ echo $shell
+ echo $SHELL
+ echo $PWD
+ 
+ 28]ps
+ sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/A$ ps
+    PID TTY          TIME CMD
+  10852 pts/0    00:00:00 bash
+  11317 pts/0    00:00:00 ps
+
+29]kill
+kill -l
+ kill -q
+ kill -L
+kill -9 -1
+
+kill -l
+ 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+ 6) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+11) SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+16) SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+21) SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+31) SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+38) SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+43) SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+48) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+63) SIGRTMAX-1	64) SIGRTMAX	
+
+
+30]env
+
+
+

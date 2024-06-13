@@ -1,0 +1,192 @@
+----------------------------Assign 3 : Linux Commands-----------------------------------
+
+1]ls-
+ls
+ 1                    hackthon            'selfpractice mern'
+ A                    help                 show
+ ASSIGNMENT-2         html                 snap
+ A.txt               'mern instructions'  'SQL ASSIGNMENT-1'
+ C                   'mern test'          'SQL ASSIGNMENT-2'
+ Ca.txt               mongo               'SQL ASSIGNMENT-3'
+ cursor               Music               'SQL ASSIGNMENT 4'
+ Da.txt               mymern              'SQL ASSIGNMENT-4'
+ dbt_240344220029     node_modules        'SQL ASSIGNMENT-4.1'
+ Dbt_240344220029     one                 'SQL ASSIGNMENT-5'
+'dbt coding'          package.json         Templates
+ Desktop              package-lock.json   'Untitled Document 1'
+ Documents            PASSWORD            'Untitled Document 2'
+ Downloads            Pictures             Videos
+ EXERCISE             Public               xy.txt
+'FILE HANDLING QUE'   register.jsx
+ functionsss          rules
+
+2]rename
+rename
+Usage:
+    rename [ -h|-m|-V ] [ -v ] [ -0 ] [ -n ] [ -f ] [ -d ] [ -u [enc]]
+    [ -e|-E perlexpr]*|perlexpr [ files ]
+    
+3]ln -s    
+ln -s xy.txt yz.txt
+
+4]ln
+ln -s xy.txt yz.txt
+
+5]stat
+stat xy.txt
+  File: xy.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 807h/2055d	Inode: 7928833     Links: 2
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ sunbeam)   Gid: ( 1000/ sunbeam)
+Access: 2024-06-01 23:41:53.776577290 +0530
+Modify: 2024-06-01 14:30:00.000000000 +0530
+Change: 2024-06-01 23:41:46.644395295 +0530
+ Birth: 2024-06-01 22:33:55.225417896 +0530
+
+6]touch
+touch xyz.txt
+
+7]touch
+ touch ab.txt
+
+8]tail
+tail -5 xy.txt
+
+
+9]init 0, poweroff
+10]init 6, reboot
+ 
+ 12]whoami
+ whoami
+sunbeam
+
+13]tty
+tty
+/dev/pts/0
+
+14]who am i
+
+15]users
+users
+sunbeam
+
+16]who
+who
+sunbeam  tty2         2024-06-01 21:58 (tty2)
+
+17]grep
+grep xy.txt
+hi i am from sunbeam
+hello cdac
+sunbeam pune
+
+18]chmod
+chmod a+r  hi.txt
+
+19]
+
+
+20]
+wc hi.txt > wcop.txt
+
+21]
+who | wc
+      2       9      85
+      
+22]
+head -10 num.txt | tail -5 
+6
+7
+8
+9
+10
+
+23]sort hi.txt|uniq
+a
+aa
+b
+ba
+c
+d
+hello
+hi
+is 
+my
+name
+sunbeam
+wooow
+woow
+world
+wow
+w*w
+
+24]
+
+
+
+
+
+
+25]ls -S -l -h /
+total 76K
+drwx------   2 root root  16K Mar  6 17:28 lost+found
+drwxr-xr-x 136 root root  12K Jun  1 18:09 etc
+drwxr-xr-x  20 root root 5.4K Jun  1 17:07 dev
+drwxr-xr-x   4 root root 4.0K Jun  1 18:09 boot
+drwxrwxr-x   2 root root 4.0K Mar  6 17:30 cdrom
+drwxr-xr-x   3 root root 4.0K Apr 17 15:47 home
+drwxr-xr-x   3 root root 4.0K Mar 13 18:43 media
+drwxr-xr-x   2 root root 4.0K Feb 21 00:52 mnt
+drwxr-xr-x   3 root root 4.0K Mar 12 17:22 opt
+drwx------   5 root root 4.0K Apr 15 14:34 root
+drwxr-xr-x  18 root root 4.0K Apr 27 20:44 snap
+drwxr-xr-x   2 root root 4.0K Feb 21 00:52 srv
+drwxrwxrwt  22 root root 4.0K Jun  1 18:49 tmp
+drwxr-xr-x  14 root root 4.0K Feb 21 00:52 usr
+drwxr-xr-x  14 root root 4.0K Feb 21 00:57 var
+drwxr-xr-x  37 root root 1.1K Jun  1 18:14 run
+lrwxrwxrwx   1 root root   10 Mar  6 17:29 libx32 -> usr/libx32
+lrwxrwxrwx   1 root root    9 Mar  6 17:29 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root    9 Mar  6 17:29 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root    8 Mar  6 17:29 sbin -> usr/sbin
+lrwxrwxrwx   1 root root    7 Mar  6 17:29 bin -> usr/bin
+lrwxrwxrwx   1 root root    7 Mar  6 17:29 lib -> usr/lib
+dr-xr-xr-x 439 root root    0 Jun  1 17:06 proc
+dr-xr-xr-x  13 root root    0 Jun  1 17:06 sys
+
+26]ls -p | grep -v / | wc -l
+9
+ ls -p | wc -l
+10
+ ls -p | grep -c / | wc -l
+1
+
+27]ls -a / | grep -v / 
+.
+..
+bin
+boot
+cdrom
+dev
+etc
+home
+lib
+lib32
+lib64
+libx32
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+snap
+srv
+sys
+tmp
+usr
+var
+
+
