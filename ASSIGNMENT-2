@@ -1,0 +1,239 @@
+                LINUX COMMANDS ASSIGNMENTS-II
+                
+1] List the directory contents date wise sorted. ( man ls)  
+  =>  ls -l -t /
+total 3888
+drwxrwxrwt  19 root root    12288 Jun  1 19:00 tmp
+drwxr-xr-x  38 root root      960 Jun  1 17:03 run
+drwxr-xr-x  21 root root     5240 Jun  1 17:02 dev
+dr-xr-xr-x 291 root root        0 Jun  1 17:01 proc
+dr-xr-xr-x  13 root root        0 Jun  1 17:01 sys
+drwxr-xr-x 136 root root    12288 May  2 14:39 etc
+drwxr-xr-x  17 root root     4096 Apr 28 22:57 snap
+drwxr-xr-x   4 root root     4096 Apr 20 08:33 boot
+drwx------   5 root root     4096 Apr 12 14:51 root
+-rw-------   1 root root 21291008 Mar 14 14:15 core.884
+drwxr-xr-x   3 root root     4096 Mar 12 17:29 opt
+drwxr-xr-x   3 root root     4096 Mar  6 23:30 media
+drwxr-xr-x   3 root root     4096 Mar  6 17:49 home
+drwxrwxr-x   2 root root     4096 Mar  6 17:49 cdrom
+lrwxrwxrwx   1 root root        8 Mar  6 17:46 sbin -> usr/sbin
+lrwxrwxrwx   1 root root        7 Mar  6 17:46 lib -> usr/lib
+lrwxrwxrwx   1 root root        9 Mar  6 17:46 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root        9 Mar  6 17:46 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root       10 Mar  6 17:46 libx32 -> usr/libx32
+lrwxrwxrwx   1 root root        7 Mar  6 17:46 bin -> usr/bin
+drwx------   2 root root    16384 Mar  6 17:46 lost+found
+drwxr-xr-x  14 root root     4096 Feb 21 00:57 var
+drwxr-xr-x   2 root root     4096 Feb 21 00:52 mnt
+drwxr-xr-x   2 root root     4096 Feb 21 00:52 srv
+drwxr-xr-x  14 root root     4096 Feb 21 00:52 usr
+         
+2] List the directory contents size wise sorted.(man ls)
+  ls -ls
+total 220
+ 4 -rw-rw-r--  1 sunbeam sunbeam   405 Mar 30 17:52  1
+ 4 drwxrwxr-x  2 sunbeam sunbeam  4096 Jun  1 18:01  A
+ 4 -rw-rw-r--  1 sunbeam sunbeam  2760 Jun  1 19:22  ASSIGNMENT-2
+ 4 drwxrwxr-x  2 sunbeam sunbeam  4096 Jun  1 18:04  C
+ 4 -rw-rw-r--  1 sunbeam sunbeam   139 Jun  1 17:31  Ca.txt
+ 4 -rw-rw-r--  1 sunbeam sunbeam  1165 Mar 30 14:43  cursor
+ 4 -rw-rw-r--  1 sunbeam sunbeam   139 Jun  1 17:32  Da.txt
+ 4 -rw-rw-r--  1 sunbeam sunbeam  3909 Mar 30 22:41  dbt_240344220029
+ 4 -rw-rw-r--  1 sunbeam sunbeam  3942 Mar 30 22:49  Dbt_240344220029
+ 4 -rw-rw-r--  1 sunbeam sunbeam    42 Mar 27 22:23 'dbt coding'
+ 4 drwxr-xr-x 17 sunbeam sunbeam  4096 May 31 17:42  Desktop
+ 4 drwxr-xr-x  3 sunbeam sunbeam  4096 Mar 13 23:08  Documents
+ 4 drwxr-xr-x  7 sunbeam sunbeam  4096 Apr 28 23:43  Downloads
+ 4 -rw-rw-r--  1 sunbeam sunbeam    50 Mar 25 15:05  EXERCISE
+ 4 -rw-rw-r--  1 sunbeam sunbeam  2569 Mar 23 22:59 'FILE HANDLING QUE'
+ 4 -rw-rw-r--  1 sunbeam sunbeam  2439 Mar 30 16:14  functionsss
+ 4 -rw-rw-r--  1 sunbeam sunbeam   570 Apr 20 08:48  hackthon
+ 0 -rw-rw-r--  1 sunbeam sunbeam     0 Mar 30 10:09  help
+ 4 -rw-rw-r--  1 sunbeam sunbeam  1719 Apr  1 22:34  html
+16 -rwxr-xr-x  1 sunbeam sunbeam 13475 Apr 19 10:20 'mern instructions'
+ 4 drwxrwxr-x  2 sunbeam sunbeam  4096 Apr 18 22:01 'mern test'
+ 4 -rw-rw-r--  1 sunbeam sunbeam   337 Mar 30 16:19  mongo
+ 4 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Music
+ 4 -rw-rw-r--  1 sunbeam sunbeam  3764 Apr 18 23:38  mymern
+ 4 drwxr-xr-x 66 root    root     4096 Apr 12 14:51  node_modules
+ 4 drwxrwxr-x  3 sunbeam sunbeam  4096 Jun  1 19:15  one
+ 4 -rw-r--r--  1 root    root       53 Apr 12 14:51  package.json
+28 -rw-r--r--  1 root    root    25339 Apr 12 14:51  package-lock.json
+ 4 -rw-rw-r--  1 sunbeam sunbeam   205 Mar 24 16:05  PASSWORD
+ 4 drwxr-xr-x  3 sunbeam sunbeam  4096 Mar 14 18:56  Pictures
+ 4 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Public
+ 8 -rwxr-xr-x  1 sunbeam sunbeam  4733 Apr 19 00:58  register.jsx
+ 8 -rw-rw-r--  1 sunbeam sunbeam  5070 Mar 30 07:04  rules
+ 4 drwxrwxr-x  2 sunbeam sunbeam  4096 Apr 18 18:39 'selfpractice mern'
+ 0 -rw-rw-r--  1 sunbeam sunbeam     0 Mar 30 10:09  show
+ 4 drwx------  8 sunbeam sunbeam  4096 Apr 28 22:58  snap
+ 4 -rw-rw-r--  1 sunbeam sunbeam  1343 Mar 19 22:39 'SQL ASSIGNMENT-1'
+ 4 -rw-rw-r--  1 sunbeam sunbeam   348 Mar 20 21:26 'SQL ASSIGNMENT-2'
+ 4 -rw-rw-r--  1 sunbeam sunbeam   346 Mar 20 21:28 'SQL ASSIGNMENT-3'
+ 4 -rw-rw-r--  1 sunbeam sunbeam  1072 Mar 20 16:59 'SQL ASSIGNMENT 4'
+ 4 -rw-rw-r--  1 sunbeam sunbeam   481 Mar 20 14:28 'SQL ASSIGNMENT-4'
+ 4 -rw-rw-r--  1 sunbeam sunbeam   160 Mar 20 14:38 'SQL ASSIGNMENT-4.1'
+ 4 -rw-rw-r--  1 sunbeam sunbeam  1263 Mar 20 17:45 'SQL ASSIGNMENT-5'
+ 4 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Templates
+ 4 -rw-rw-r--  1 sunbeam sunbeam   597 Mar 19 20:59 'Untitled Document 1'
+ 0 -rw-rw-r--  1 sunbeam sunbeam     0 Mar 19 20:59 'Untitled Document 2'
+ 4 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Videos
+
+3]3. List directory contents along with their inode no. (man ls)
+  =>ls -li
+total 224
+7877038 -rw-rw-r--  1 sunbeam sunbeam   405 Mar 30 17:52  1
+8000059 drwxrwxr-x  2 sunbeam sunbeam  4096 Jun  1 18:01  A
+7928825 -rw-rw-r--  1 sunbeam sunbeam  5853 Jun  1 22:22  ASSIGNMENT-2
+8000062 drwxrwxr-x  2 sunbeam sunbeam  4096 Jun  1 18:04  C
+7881928 -rw-rw-r--  1 sunbeam sunbeam   139 Jun  1 17:31  Ca.txt
+7875251 -rw-rw-r--  1 sunbeam sunbeam  1165 Mar 30 14:43  cursor
+7926625 -rw-rw-r--  1 sunbeam sunbeam   139 Jun  1 17:32  Da.txt
+7875277 -rw-rw-r--  1 sunbeam sunbeam  3909 Mar 30 22:41  dbt_240344220029
+7877319 -rw-rw-r--  1 sunbeam sunbeam  3942 Mar 30 22:49  Dbt_240344220029
+7900259 -rw-rw-r--  1 sunbeam sunbeam    42 Mar 27 22:23 'dbt coding'
+7864349 drwxr-xr-x 17 sunbeam sunbeam  4096 May 31 17:42  Desktop
+7864353 drwxr-xr-x  3 sunbeam sunbeam  4096 Mar 13 23:08  Documents
+7864350 drwxr-xr-x  7 sunbeam sunbeam  4096 Apr 28 23:43  Downloads
+7898388 -rw-rw-r--  1 sunbeam sunbeam    50 Mar 25 15:05  EXERCISE
+7897377 -rw-rw-r--  1 sunbeam sunbeam  2569 Mar 23 22:59 'FILE HANDLING QUE'
+7876869 -rw-rw-r--  1 sunbeam sunbeam  2439 Mar 30 16:14  functionsss
+7892699 -rw-rw-r--  1 sunbeam sunbeam   570 Apr 20 08:48  hackthon
+7874055 -rw-rw-r--  1 sunbeam sunbeam     0 Mar 30 10:09  help
+7880674 -rw-rw-r--  1 sunbeam sunbeam  1719 Apr  1 22:34  html
+7885506 -rwxr-xr-x  1 sunbeam sunbeam 13475 Apr 19 10:20 'mern instructions'
+8694623 drwxrwxr-x  2 sunbeam sunbeam  4096 Apr 18 22:01 'mern test'
+7876893 -rw-rw-r--  1 sunbeam sunbeam   337 Mar 30 16:19  mongo
+7864354 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Music
+7923532 -rw-rw-r--  1 sunbeam sunbeam  3764 Apr 18 23:38  mymern
+8007335 drwxr-xr-x 66 root    root     4096 Apr 12 14:51  node_modules
+7999678 drwxrwxr-x  3 sunbeam sunbeam  4096 Jun  1 19:15  one
+7865982 -rw-r--r--  1 root    root       53 Apr 12 14:51  package.json
+7865985 -rw-r--r--  1 root    root    25339 Apr 12 14:51  package-lock.json
+7898128 -rw-rw-r--  1 sunbeam sunbeam   205 Mar 24 16:05  PASSWORD
+7864355 drwxr-xr-x  3 sunbeam sunbeam  4096 Mar 14 18:56  Pictures
+7864352 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Public
+7887953 -rwxr-xr-x  1 sunbeam sunbeam  4733 Apr 19 00:58  register.jsx
+7873604 -rw-rw-r--  1 sunbeam sunbeam  5070 Mar 30 07:04  rules
+8411032 drwxrwxr-x  2 sunbeam sunbeam  4096 Apr 18 18:39 'selfpractice mern'
+7874056 -rw-rw-r--  1 sunbeam sunbeam     0 Mar 30 10:09  show
+7864339 drwx------  8 sunbeam sunbeam  4096 Apr 28 22:58  snap
+7864612 -rw-rw-r--  1 sunbeam sunbeam  1343 Mar 19 22:39 'SQL ASSIGNMENT-1'
+7880935 -rw-rw-r--  1 sunbeam sunbeam   348 Mar 20 21:26 'SQL ASSIGNMENT-2'
+7880591 -rw-rw-r--  1 sunbeam sunbeam   346 Mar 20 21:28 'SQL ASSIGNMENT-3'
+7879308 -rw-rw-r--  1 sunbeam sunbeam  1072 Mar 20 16:59 'SQL ASSIGNMENT 4'
+7890399 -rw-rw-r--  1 sunbeam sunbeam   481 Mar 20 14:28 'SQL ASSIGNMENT-4'
+7890797 -rw-rw-r--  1 sunbeam sunbeam   160 Mar 20 14:38 'SQL ASSIGNMENT-4.1'
+7880960 -rw-rw-r--  1 sunbeam sunbeam  1263 Mar 20 17:45 'SQL ASSIGNMENT-5'
+7864351 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Templates
+7887288 -rw-rw-r--  1 sunbeam sunbeam   597 Mar 19 20:59 'Untitled Document 1'
+7877789 -rw-rw-r--  1 sunbeam sunbeam     0 Mar 19 20:59 'Untitled Document 2'
+7864356 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  6 23:30  Videos
+
+4] List the contents of the subdirectory.
+=>ls /home/sunbeam/A
+xy.txt
+
+5]5. Create a file, write your surname and name in it and
+save.
+i. now open the same file and add your address in it and
+save.
+ii. reopen the same file and check your name and address in
+it.
+=>echo "SNEHAL BADAKH" >A.txt
+echo "GAJANANNAGAR GARKHEDA PARISAR CHHATRAPATI SAMBHAJINAGAR" >>A.txt
+cat A.txt
+----------cat command display the content of the file--------------------
+SNEHAL BADAKH
+GAJANANNAGAR GARKHEDA PARISAR CHHATRAPATI SAMBHAJINAGAR
+
+
+6]how to change the time stamp of file (man touch)
+=>touch -t 202406011430.00 xy.txt
+
+  
+  
+  
+7]Create directory structure : Give following commands
+ _____mkdir one
+______cd one
+______touch 1.txt 11.txt 111.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one$ mkdir two
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one$ cd two
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two$ touch 2.txt 22.txt 222.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two$ mkdir three
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two$ cd three
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three$ touch 3.txt 33.txt 333.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three$ mkdir four
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three$ cd four
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three/four$ touch 4.txt 44.txt 444.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three/four$ mkdir five
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three/four$ cd five
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~/one/two/three/four/five$ cd ~
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ ^C
+sunbeam@sunbeam-HP-Laptop-15s-dy3xxx:~$ 
+
+
+8]8. Considering above directory structure , Do following
+operations :
+=>1] list the directory contents of directory named
+"five" from current directory (i.e. home directory).
+=======>ls one/two/three/four/five
+555.txt  55.txt  5.txt
+
+2]write your name in a file named "44.txt" of
+directory "four" from current directory.
+======>echo "Snehal" > one/two/three/four/44.txt
+
+3]remove the file named "555.txt" from directory
+"five" from current directory.
+==========>rm one/two/three/four/five/555.txt
+
+4]change directory to five
+one/two/three/four/five/ ).
+( i.e. cd)
+==========>cd one/two/three/four/five/
+
+5]write your course name in file named "3.txt" which
+resides in directory "three" from current directory (i.e.
+five).also read the same file.
+============>echo "PG-DAC" > ../../3.txt
+cat ../../3.txt
+PG-DAC
+
+6]list the contents of directory "two" from current
+directory (i.e. five).
+============>ls ../../../two
+
+7]remove file named "222.txt" which belongs to
+directory "two" from current directory (i.e. five)
+=========>rm ../../../two/222.txt
+
+8]now change the directory to "one"
+============>cd ../../../..
+
+
+9]remove all files only from directory named "five"
+from current directory (i.e. one)
+=================>rm one/two/three/four/five/*
+
+10]remove directory named "five" from current directory
+(i.e. one)
+==================>rmdir one/two/three/four/five
+
+
+11]remove whole directory named "four" from current
+directory (i.e. one)
+===============>rm -r one/two/three/four
+
+12]change to your home directory
+==============>cd ~
+
+
+
+9]9. change the time stamp of file named "3.txt" which resides
+in directory named "three".(man touch)
+============>touch -t 202406011430.00 /home/sunbeam/one/two/three/3.txt
+
